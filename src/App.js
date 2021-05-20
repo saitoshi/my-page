@@ -29,8 +29,8 @@ function App() {
           <Route path="/radgrad" exact component={() => <RadGrad />} />
           <Route path="/shocking" exact component={() => <Shocking />} />
           <Route path="/radgradreview" exact component={() => <RadGradReview />} />
-          <Route path="/radgradrstart" exact component={() => <RadGradStart />} />
           <Route path="/radgradfeedback" exact component={() => <RadGradFeedback />} />
+          <Route path="/radgradstart" exact component={() => <RadGradStart />} />
           <Route path="/textbookhunt" exact component={() => <TextbookHunt />} />
           <Route path="/tregear" exact component={() => <Tregear />} />
         </Switch>
