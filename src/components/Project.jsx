@@ -74,6 +74,27 @@ function Project() {
               </Grid>
             </Card.Content>
           </Card>
+          <Card>
+            <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
+            <Card.Content>
+              <Card.Header textAlign='center'>UH Math Review</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-06-01</span>
+              </Card.Meta>
+              <Card.Description>
+                A review website where college students can study or prepare for Math courses offered at UH Manoa.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Mathematics, HTML, LaTex <br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
 
           <Card>
             <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
@@ -83,11 +104,10 @@ function Project() {
                 <span className='date'>2020-05-15</span>
               </Card.Meta>
               <Card.Description>
-                A meteor and react based application where students can sell used textbooks to others ...
-              </Card.Description>
+                A meteor and react based application where students can sell used textbooks to others               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              Software Engineering, Meteor, React <br/>
+              Software Engineering, Meteor, React<br/>
               <br/>
               <Grid>
                 <Grid.Column textAlign="center">
@@ -96,6 +116,28 @@ function Project() {
               </Grid>
             </Card.Content>
           </Card>
+
+          <Card>
+            <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
+            <Card.Content>
+              <Card.Header textAlign='center'>Textbook Hunt</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-05-15</span>
+              </Card.Meta>
+              <Card.Description>
+                A meteor and react based application where students can sell used textbooks to others               </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Meteor, React<br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
         </Card.Group>
 
         </Container>

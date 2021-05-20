@@ -7,6 +7,7 @@ function Essay() {
       <Container>
         <Header as ="h2" textAlign="center">ESSAY</Header>
         <hr/>
+        <Container text>
         <Card.Group itemsPerRow={3}>
           <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
@@ -52,8 +53,7 @@ function Essay() {
             </Card.Content>
           </Card>
         </Card.Group>
-
-
+        </Container>
       </Container>
 
 
