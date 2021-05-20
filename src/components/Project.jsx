@@ -52,6 +52,28 @@ function Project() {
               </Grid>
             </Card.Content>
           </Card>
+
+          <Card>
+            <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
+            <Card.Content>
+              <Card.Header textAlign='center'>Textbook Hunt</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-05-15</span>
+              </Card.Meta>
+              <Card.Description>
+                A meteor and react based application where students can sell used textbooks to others ...
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Meteor, React <br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
         </Card.Group>
 
 
