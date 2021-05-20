@@ -5,3 +5,4 @@ export { default as Resume } from "./Resume";
 export { default as Project } from "./Project";
 export { default as Essay } from "./Essay";
 export { default as RadGrad } from "./RadGrad";
+export { default as Shocking } from "./Shocking";
