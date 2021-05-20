@@ -25,7 +25,7 @@ function Essay() {
               <br/>
               <Grid>
                 <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/radgradreview">READ ESSAY</Button>
+                  <Button as = {NavLink} exact to = "/radgradstart">READ ESSAY</Button>
                 </Grid.Column>
               </Grid>
             </Card.Content>
