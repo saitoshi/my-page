@@ -25,7 +25,7 @@ As an introduction task to the first week of the RadGrad 2.0 Summer 2021 Interns
 Regardless of the country in which you learned programming; the first task is always called “Hello-World”. This was no different for the RadGrad summer 2021 interns too. Using the sandbox portion provided by Professor Johnson and Professor Moore, we began by writing “Hello-World”.
   However, this process also allowed us to see <span className="bold-list">components</span> unique to RadGrad such as “RadGradHeader” and the “RadGradSegment”.
   Additionally, this was the first time for me to use <a href={"https://fomantic-ui.com/"}>Fomantic UI</a> programming assignment.
-<Image src={"https://saitoshi.github.io/images/duplicate.png"} size='large' centered/>
+<Image src={"https://github.com/saitoshi/images/blob/main/radgrad-task1.png?raw=true"} size='large' centered/>
 </Container>
         <div className ="push"/>
           </Container>
