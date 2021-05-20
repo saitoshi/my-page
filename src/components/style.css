@@ -39,3 +39,7 @@ p {
   text-align: center;
   font-size: 12px;
 }
+span.bold-list {
+  font-weight: bold;
+  color: blue;
+}

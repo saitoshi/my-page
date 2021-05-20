@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Container, Card, Image, Button, Grid } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 
 function Essay() {
   return (
@@ -10,7 +11,7 @@ function Essay() {
           <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
-              <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
+              <Card.Header textAlign='center'>RadGrad Grad Review</Card.Header>
               <Card.Meta textAlign='center'>
                 <span className='date'>ON GOING</span>
               </Card.Meta>
@@ -23,7 +24,7 @@ function Essay() {
               <br/>
               <Grid>
                 <Grid.Column textAlign="center">
-                  <Button>MORE DETAILS</Button>
+                  <Button as = {NavLink} exact to = "/radgradreview">READ ESSAY</Button>
                 </Grid.Column>
               </Grid>
             </Card.Content>
