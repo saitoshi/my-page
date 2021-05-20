@@ -11,9 +11,31 @@ function Essay() {
           <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
+              <Card.Header textAlign='center'>RadGrad Grad Feedback</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>05-20-21</span>
+              </Card.Meta>
+              <Card.Description>
+                A response on the RadGrad research: purpose and ways to get student feedback.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Meteor, React <br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/radgradfeedback">READ ESSAY</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Review</Card.Header>
               <Card.Meta textAlign='center'>
-                <span className='date'>ON GOING</span>
+                <span className='date'>05-19-21</span>
               </Card.Meta>
               <Card.Description>
                 A project created during my Summer 2021 internship program.
