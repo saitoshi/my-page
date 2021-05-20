@@ -23,7 +23,7 @@ function RadGrad2() {
             <li> For the repository <a href="https://github.com/radgrad/radgrad2">page</a></li>
             <li> For the organization <a href={"https://www.radgrad.org/"}>page</a></li>
           </ul>
-          
+
 
 
         </Container>
