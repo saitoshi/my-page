@@ -39,8 +39,6 @@ function TextbookHunt() {
             For the third week, I have cleaned up the final things such as moving the comments section and creating an Admin access where the admin can delete and edit books that might not seem appropriate.
             <br/>
             Overall by participating in this project, I have learned better scheduling. Since this project was assigned during the COVID-19 lock down, I had to create an efficient schedule and remind myself that time will only run out and continue working. Additionally, I have found a way to communicate to my team members without making them mad or furious.
-
-
             <div class="push">
             </div>
 

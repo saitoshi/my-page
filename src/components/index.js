@@ -7,5 +7,6 @@ export { default as Essay } from "./Essay";
 export { default as RadGrad } from "./RadGrad";
 export { default as Shocking } from "./Shocking";
 export { default as TextbookHunt } from "./TextbookHunt";
+export { default as Tregear } from "./Tregear";
 export { default as RadGradReview } from "./RadGradReview";
 export { default as RadGradFeedback } from "./RadGradFeedback";

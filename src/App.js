@@ -1,6 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Home, About, Resume, Project, Essay, RadGrad, Shocking, TextbookHunt, RadGradReview, RadGradFeedback } from "./components";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  Navigation,
+  Home,
+  About,
+  Resume,
+  Project,
+  Essay,
+  RadGrad,
+  Shocking,
+  TextbookHunt,
+  RadGradReview,
+  RadGradFeedback,
+  Tregear
+} from "./components";
 function App() {
   return (
     <div className="App">
@@ -17,6 +30,7 @@ function App() {
           <Route path="/radgradreview" exact component={() => <RadGradReview />} />
           <Route path="/radgradfeedback" exact component={() => <RadGradFeedback />} />
           <Route path="/textbookhunt" exact component={() => <TextbookHunt />} />
+          <Route path="/tregear" exact component={() => <Tregear />} />
         </Switch>
       </Router>
     </div>

@@ -7,6 +7,7 @@ function Project() {
   return (
       <Container>
         <Header as ="h2" textAlign="center">PROJECT</Header>
+        <Container text>
         <hr/>
         <Card.Group itemsPerRow={3}>
           <Card>
@@ -54,6 +55,27 @@ function Project() {
           </Card>
 
           <Card>
+            <Image src="https://saitoshi.github.io/images/tregear.png" />
+            <Card.Content>
+              <Card.Header textAlign='center'>Tregear Story Translation</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-12-13</span>
+              </Card.Meta>
+              <Card.Description>
+                A Japanese to English translation for the short story called "Tregear Story" written by NAKANO Takao.              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Japanese to English Translation<br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/tregear">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
+          <Card>
             <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
             <Card.Content>
               <Card.Header textAlign='center'>Textbook Hunt</Card.Header>
@@ -76,7 +98,7 @@ function Project() {
           </Card>
         </Card.Group>
 
-
+        </Container>
       </Container>
 
 
