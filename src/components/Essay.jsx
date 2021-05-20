@@ -12,6 +12,27 @@ function Essay() {
           <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
+              <Card.Header textAlign='center'>RadGrad Initial Join Up</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>05-19-21</span>
+              </Card.Meta>
+              <Card.Description>
+              Essay reflecting on the first week tasks on RadGrad Summer Internship that are programming related.
+            </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Meteor, React <br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/radgradreview">READ ESSAY</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+          <Card>
+            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Feedback</Card.Header>
               <Card.Meta textAlign='center'>
                 <span className='date'>05-20-21</span>
