@@ -5,6 +5,7 @@ import { Header, Container, Grid, Image } from 'semantic-ui-react';
 function Shocking() {
   return (
       <Container>
+        <br/>
         <Header as ="h2" textAlign="center">Shocking Emissions</Header>
         <Grid textAlign = "center">
           <p textAlign="center"> Software Engineering, Meteor, React</p>
