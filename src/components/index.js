@@ -10,3 +10,4 @@ export { default as TextbookHunt } from "./TextbookHunt";
 export { default as Tregear } from "./Tregear";
 export { default as RadGradReview } from "./RadGradReview";
 export { default as RadGradFeedback } from "./RadGradFeedback";
+export { default as RadGradStart } from "./RadGradStart";
