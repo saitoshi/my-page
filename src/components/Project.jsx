@@ -6,6 +6,7 @@ const shockingLogo = require('./images/shocking.png');
 function Project() {
   return (
       <Container>
+        <br/>
         <Header as ="h2" textAlign="center">PROJECT</Header>
         <Container text>
         <hr/>
