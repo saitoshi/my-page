@@ -28,6 +28,22 @@ function Tregear() {
             <br/>
             <Image src={"https://images-na.ssl-images-amazon.com/images/I/616IbasANdL.jpg"} size='large' centered/>
             <div className="comment">Ultraman Taiga Fanbook, where Tregear Story was published in.</div>
+            The translation process was done in the following:
+            <ul>
+              <li> Literal Translation</li>
+              A literal translation from Japanese to English without thinking whether it would make
+              sense for English speaking audience.
+              <li> Modified Translation</li>
+              A translation to see what phrases should be fixed in order to make it sound smooth and makes sense
+              for English readers.
+              <li> Final Draft</li>
+              A last check of grammar and mistranslations to see whether the context of the original source is not lost in
+              the translations.
+            </ul>
+            <ul>
+              <li> For the <a href="TregearStoryFinalDraft.pdf">final copy</a> of the translation.</li>
+              <li> For the translator's <a href="JPN425SaitoProjectNotes.pdf">notes</a> to see why somethings were translated in a such of way.</li>
+            </ul>
           </p>
         </Container>
         <div className="push"/>
