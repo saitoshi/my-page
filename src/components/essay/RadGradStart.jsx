@@ -48,7 +48,7 @@ function RadGradStart() {
           <Image src={'https://github.com/saitoshi/images/blob/main/task3.png?raw=true'} size='big' centered/>
           <br/>
           After talking to some teammates, I was able to modify the code so the job selections are randomized. I modified the consts on the Task3Component Typescript and then use the Random function.
-          <Image src={'https://github.com/saitoshi/images/blob/main/RadGradTask3.gif'} size='big' centered/>
+          <Image src={'https://github.com/saitoshi/images/blob/main/RadGradTask3.gif?raw=true'} size='big' centered/>
           <div className={'comment'}>Now it displays other careers also.</div>
 
         </Container>
