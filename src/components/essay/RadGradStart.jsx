@@ -39,6 +39,7 @@ function RadGradStart() {
           <Image src={'https://github.com/saitoshi/images/blob/main/radgrad-task2.png?raw=true'} size='huge' centered/>
           <div className={'comment'}>A screenshot when I log in as radgrad@hawaii.edu.</div>
           <b><u>Task 3 - Career Goal Display</u></b>
+          <br/>
           For task 3, we had to create a career goal segment in which every time it refreshes, it displayed a new career option and its description.
           Additionally, on the bottom it should display the total number of career choices available. <br/>
           For this task, similar to Task 2, I created a component in which stored the basic parts required in Task 3 and in the SandBox page recreated the interface to store the consts from Task 2 and Task 3 into one area.
