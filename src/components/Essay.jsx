@@ -14,7 +14,7 @@ function Essay() {
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Initial Join Up</Card.Header>
               <Card.Meta textAlign='center'>
-                <span className='date'>05-19-21</span>
+                <span className='date'>05-21-21</span>
               </Card.Meta>
               <Card.Description>
               Essay reflecting on the first week tasks on RadGrad Summer Internship that are programming related.
