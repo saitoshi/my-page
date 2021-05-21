@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Header, Container, Grid, Image } from 'semantic-ui-react';
 import './style.css';
 
@@ -24,15 +24,23 @@ function RadGradStart() {
           Regardless of the country in which you learned programming; the first task is always called “Hello-World”. This was no different for the RadGrad summer 2021 interns too. Using the sandbox portion provided by Professor Johnson and Professor Moore, we began by writing “Hello-World”.
           However, this process also allowed us to see <span className="bold-list">components</span> unique to RadGrad such as “RadGradHeader” and the “RadGradSegment”.
           Additionally, this was the first time for me to use <a href={"https://fomantic-ui.com/"}>Fomantic UI</a> programming assignment.
-          <Image src={"https://github.com/saitoshi/images/blob/main/radgrad-task1.png?raw=true"} size='huge' centered/>
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgrad-task1.png?raw=true'} size='huge' centered/>
           <div className="comment">A screenshot of the sandbox after Task 1.</div>
+          <b><u>Task 2 - User Display</u></b>
+          <br/>
+          After doing Hello World, the next task is to display the user names of the sandbox owner and the current user. To do begin, I created a component that stored the header and paragraphs in a separate component file.
+          Then using withTracker, I created two const called "urlUser", which stores the owner of the page and "loggedInUser" to store the current user by the help from meteor.
+          The challenging part for this task was grabbing the user display, but after taking a 15 minute break the solution I ended up was the following.
+          <br/>
+          <Image src={'https://github.com/saitoshi/images/blob/main/task2code.png?raw=true'} size='big' centered/>
+          <br/>
+         <div className={'comment'}>The code I wrote to display the correct users.</div>
+          To test whether the code worked I logged in as an Admin to see whether it displayed the right users. After logging in it did as it displayed radgrad@hawaii.edu as the current user and my email as the owner of the sandbox.
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgrad-task2.png?raw=true'} size='huge' centered/>
+          <div className={'comment'}>A screenshot when I log in as radgrad@hawaii.edu.</div>
         </Container>
         <div className ="push"/>
       </Container>
-
-
-
-
 );
 }
 
