@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Essay() {
   return (
       <Container>
+        <br/>
         <Header as ="h2" textAlign="center">ESSAY</Header>
         <hr/>
         <Container text>
