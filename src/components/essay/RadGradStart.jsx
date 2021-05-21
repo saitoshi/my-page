@@ -45,7 +45,9 @@ function RadGradStart() {
           For this task, similar to Task 2, I created a component in which stored the basic parts required in Task 3 and in the SandBox page recreated the interface to store the consts from Task 2 and Task 3 into one area.
           However, the difficult part was getting the consts as I had a hard time displaying the randomization of careers.
           Initially, it would only display "Data Science" for me because the Career Interests when I played with RadGrad in ICS 211 was Data Science.
-        <Image src={'https://github.com/saitoshi/images/blob/main/task3.png?raw=true'} size='big' centered/>
+        <br/>
+          After talking to some teammates, I was able to modify the code so the job selections are randomized.
+          <Image src={'https://github.com/saitoshi/images/blob/main/task3.png?raw=true'} size='big' centered/>
         </Container>
         <div className ="push"/>
       </Container>
