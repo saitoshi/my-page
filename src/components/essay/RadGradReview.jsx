@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Container, Grid, Image } from 'semantic-ui-react';
-import './style.css';
+import '../style.css';
 
 function RadGradReview() {
   return (
