@@ -1,7 +1,6 @@
 import React from "react";
 import { Header, Container, Card, Image, Button, Grid } from 'semantic-ui-react';
 import { NavLink } from "react-router-dom";
-const shockingLogo = require('./images/shocking.png');
 
 function Project() {
   return (
@@ -19,7 +18,7 @@ function Project() {
                 <span className='date'>ON GOING</span>
               </Card.Meta>
               <Card.Description>
-                A project created during my Summer 2021 internship program.
+                A Meteor and React based planner targeted for Computer Science and Electrical Engineering students that students can do based on their Career Goals.
               </Card.Description>
             </Card.Content>
             <Card.Content extra>

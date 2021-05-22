@@ -24,8 +24,7 @@ function JPN() {
                     <span className='date'>ON GOING</span>
                   </Card.Meta>
                   <Card.Description>
-                    A project created during my Summer 2021 internship program.
-                  </Card.Description>
+                    A Meteor and React based planner targeted for Computer Science and Electrical Engineering students that students ca                  </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                   Software Engineering, Meteor, React <br/>
