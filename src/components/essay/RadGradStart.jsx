@@ -50,6 +50,12 @@ function RadGradStart() {
           After talking to some teammates, I was able to modify the code so the job selections are randomized. I modified the consts on the Task3Component Typescript and then use the Random function.
           <Image src={'https://github.com/saitoshi/images/blob/main/RadGradTask3.gif?raw=true'} size='big' centered/>
           <div className={'comment'}>Now it displays other careers also.</div>
+          <b><u>Task 4 - RadGrad Labels</u></b><br/>
+          In Task 4, we were requested to work with the different labels available on RadGrad: CareerGoalLabel, InterestLabel, CourseLabel, OpportunityLabel, and UserLabel. To work on this task, I worked parts by parts to get a full understanding at first. To begin with, I started by creating and RadGradHeader of each part necessary: Career, Interest, Course, etc. After seeing that the skeleton of Task 4 working, I worked with the Mongo-related tasks. Initially, I started off by reading the article on the different labels given to us on the issue page. After that, I started off with the CareerGoalLabel.
+
+          I began by importing the label for Career and then used the "map" function to display the label as I learned both from ICS 314 and ICS 414. After getting used to with CareerLabel, I then went down the list of InterestLabel, CourseLabel, and so on. Finally, working on the student or UserLabel was challenging because it was different from the previous. After using fetch as <span className="bold-list">StudentProfiles.find({ isAlumni: false }, {}).fetch()</span> then I loaded the student labels.
+          <Image src={'https://raw.githubusercontent.com/saitoshi/images/main/task4.png'} size='medium' centered/>
+
 
         </Container>
         <div className ="push"/>
