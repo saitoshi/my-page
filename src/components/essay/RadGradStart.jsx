@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header, Container, Grid, Image } from 'semantic-ui-react';
 import '../style.css';
+import { NavLink } from 'react-router-dom';
 
 function RadGradStart() {
   return (
@@ -56,6 +57,16 @@ function RadGradStart() {
           I began by importing the label for Career and then used the "map" function to display the label as I learned both from ICS 314 and ICS 414. After getting used to with CareerLabel, I then went down the list of InterestLabel, CourseLabel, and so on.
           Finally, working on the student or UserLabel was challenging because it was different from the previous. After using fetch as <span className="bold-list">isAlumni false }, {}).fetch()</span> then I loaded the student labels.
           <Image src={'https://raw.githubusercontent.com/saitoshi/images/main/task4.png'} size='medium' centered/>
+          <b><u>Task 5 - Interests Form</u></b><br/>
+          In task 5, the assignment was to create a forum which displays all the possible interests and after the selection is made then the corresponding description is displayed. To start on this, I rewatched the screencast from Professor Johnson and looked at the project I made in
+          ICS 314 and ICS 414. After setting up the basic components: RadGrad Header and RadGrad Segment, I went with working on the the interest schema basing it off of from <NavLink exact to = "/shocking">ICS 414 Shocking Development Project</NavLink>.
+          <Image src={'https://raw.githubusercontent.com/saitoshi/images/main/radgradtask/task5/task5code.png'} size='big' centered/>
+          <div className='comment'>The <span className="bold-list">code</span> written to display the interests in the forum.</div>
+          <br/>
+          After writing out the schema, I used <span className="bold-list">AutoForum, SelectField, and SubmitField</span> to make the forum to select the different interests.
+          After that, similar to Task 3 Segment, I used <span className="bold-list">Markdown</span> to display the description cleanly.
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/task5/RadGrad5.gif?raw=true'} size='big' centered/>
+          <div className='comment'>The sample rundown of the Task 5 interest description function.</div>
         </Container>
         <div className ="push"/>
       </Container>
