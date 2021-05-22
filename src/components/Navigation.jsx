@@ -9,7 +9,7 @@ function Navigation(props) {
           <Menu size ='huge' borderless inverted color= 'teal'>
             <Menu.Item header as={NavLink} exact to={"/"}> SHIN SAITO</Menu.Item>
             <Menu.Menu position='right'>
-              <Menu.Item>日本語</Menu.Item>
+              <Menu.Item as={NavLink} exact to={"/jpn"}> 日本語</Menu.Item>
               <Menu.Item as={NavLink} exact to={"/about"}> ABOUT</Menu.Item>
               <Menu.Item as={NavLink} exact to ={"/resume"}> RESUME</Menu.Item>
               <Menu.Item as={NavLink} exact to ={"/project"}> PROJECT</Menu.Item>

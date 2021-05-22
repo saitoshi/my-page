@@ -7,6 +7,7 @@ import {
   Resume,
   Project,
   Essay,
+    JPN,
   RadGrad,
   Shocking,
   TextbookHunt,
@@ -23,6 +24,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
+          <Route path="/jpn" exact component={() => <JPN />} />
           <Route path="/resume" exact component={() => <Resume />} />
           <Route path="/project" exact component={() => <Project />} />
           <Route path="/essay" exact component={() => <Essay />} />

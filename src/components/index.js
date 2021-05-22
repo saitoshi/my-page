@@ -1,5 +1,6 @@
 export { default as Navigation } from "./Navigation";
 export { default as Home } from "./Home";
+export { default as JPN } from "./JPN";
 export { default as About } from "./About";
 export { default as Resume } from "./Resume";
 export { default as Project } from "./Project";
