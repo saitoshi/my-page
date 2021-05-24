@@ -55,11 +55,12 @@ function RadGradStart() {
           In Task 4, we were requested to work with the different labels available on RadGrad: CareerGoalLabel, InterestLabel, CourseLabel, OpportunityLabel, and UserLabel. To work on this task, I worked parts by parts to get a full understanding at first. To begin with, I started by creating and RadGradHeader of each part necessary: Career, Interest, Course, etc. After seeing that the skeleton of Task 4 working, I worked with the Mongo-related tasks. Initially, I started off by reading the article on the different labels given to us on the issue page. After that, I started off with the CareerGoalLabel.
 
           I began by importing the label for Career and then used the "map" function to display the label as I learned both from ICS 314 and ICS 414. After getting used to with CareerLabel, I then went down the list of InterestLabel, CourseLabel, and so on.
-          Finally, working on the student or UserLabel was challenging because it was different from the previous. After using fetch as <span className="bold-list">isAlumni false }, {}).fetch()</span> then I loaded the student labels.
+          Finally, working on the student or UserLabel was challenging because it was different from the previous. After using fetch as <span className="bold-list"><code>isAlumni false }, {}).fetch()</code></span> then I loaded the student labels.
           <Image src={'https://raw.githubusercontent.com/saitoshi/images/main/task4.png'} size='medium' centered/>
           <b><u>Task 5 - Interests Form</u></b><br/>
           In task 5, the assignment was to create a forum which displays all the possible interests and after the selection is made then the corresponding description is displayed. To start on this, I rewatched the screencast from Professor Johnson and looked at the project I made in
           ICS 314 and ICS 414. After setting up the basic components: RadGrad Header and RadGrad Segment, I went with working on the the interest schema basing it off of from <NavLink exact to = "/shocking">ICS 414 Shocking Development Project</NavLink>.
+          The first thing I did was grabbed the list of interests by using the follwoing line of code: <code>const availableInterests = interests.map(docToName);</code>.
           <Image src={'https://raw.githubusercontent.com/saitoshi/images/main/radgradtask/task5/task5code.png'} size='big' centered/>
           <div className='comment'>The <span className="bold-list">code</span> written to display the interests in the forum.</div>
           <br/>
@@ -67,6 +68,16 @@ function RadGradStart() {
           After that, similar to Task 3 Segment, I used <span className="bold-list">Markdown</span> to display the description cleanly.
           <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/task5/RadGrad5.gif?raw=true'} size='big' centered/>
           <div className='comment'>The sample rundown of the Task 5 interest description function.</div>
+          <b><u>Task 6 - Editing Description</u></b><br/>
+          For this task, we were asked to create something similar to Task 5 but the difference is that it also has the ability to "Edit the Description". To start on this task, I took a look at my previous code that I created in the past to rekindle my memory on how to do so.
+          After that, I took a look at the RadGrad GitHub to see what is "RadGrad's Rule of Thumb" on setting up similar code. Following the hints listed by Professor Johnson,
+          I created two components that stored two different components: one with the interest dropdown and one with the interest description update function.
+          <br/>
+          The first component was not as hard to do as it was similar to Task 5. The challenging part of this task was creating the description updates for me.
+          After reviewing some code and taking in between breaks, I was able to display the forms necessary for the updates.
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/task6/task6.png?raw=true'} size='big' centered/>
+          <div className='comment'>How Task 6 displays when I login as myself.</div>
+
         </Container>
         <div className ="push"/>
       </Container>
