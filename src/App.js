@@ -14,7 +14,8 @@ import {
   RadGradReview,
   RadGradFeedback,
   RadGradStart,
-  Tregear
+  Tregear,
+    CrossCountry
 } from "./components";
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/radgradfeedback" exact component={() => <RadGradFeedback />} />
           <Route path="/radgradstart" exact component={() => <RadGradStart />} />
           <Route path="/textbookhunt" exact component={() => <TextbookHunt />} />
+          <Route path="/crosscountry" exact component={() => <CrossCountry />} />
           <Route path="/tregear" exact component={() => <Tregear />} />
         </Switch>
       </Router>

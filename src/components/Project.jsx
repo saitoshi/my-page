@@ -11,6 +11,28 @@ function Project() {
         <hr/>
         <Card.Group itemsPerRow={3}>
           <Card>
+            <Image src="https://www.klipfolio.com/sites/default/files/blog/algotithm.jpg"/>
+            <Card.Content>
+              <Card.Header textAlign='center'>Algo-Trix</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>ON GOING</span>
+              </Card.Meta>
+              <Card.Description>
+                A Meteor and React based application created for ICS 427 Summer 2021 that provides college students additional practice for Algorithm outside of a textbook.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, React, Software Quality Assurance <br/>
+              <br/>
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/crosscountry">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
+          <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
