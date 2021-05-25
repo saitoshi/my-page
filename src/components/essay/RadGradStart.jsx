@@ -76,8 +76,21 @@ function RadGradStart() {
           The first component was not as hard to do as it was similar to Task 5. The challenging part of this task was creating the description updates for me.
           After reviewing some code and taking in between breaks, I was able to display the forms necessary for the updates.
           <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/task6/task6.png?raw=true'} size='big' centered/>
-          <div className='comment'>How Task 6 displays when I login as myself.</div>
-
+          <div className='comment'><span className="bold-list">How Task 6 displays when I login as myself.</span></div>
+          <br/>
+          <b><u>Task 7- Creating Tabs and Modals</u></b><br/>
+          The final task was not as hard compared to Task 6. To begin this task I began by making a general structure of the tabs.
+          Then after consulting with Professor Moore over Discord, I decided to add top 3 favorites of the previous tasks to place in the tabs.
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/task7/task7bar.png?raw=true'} size='big' centered/>
+          <div className='comment'><span className="bold-list">The three tabs are from Task 2, 3, and 5.</span></div>
+          Since Task 5, the description of the interests was a big size compared to other two, I chose this task to be the modal.
+          I created the three tabs as a list and then used the Tab from Semantic UI React and created three tab headers using the <span className="bold-list"><code>RadGradTabHeader</code></span>.
+          The tab making was the easiest but I personally struggled with making the modals because I did not have prior experience in either 314 or 414.
+          My initial thought was that it was going to be similar to "pop-ups", but after taking to Professor Moore I found it was a little different. Therefore, I took a look at the codes
+          he <a href="https://github.com/radgrad/radgrad2/blob/adef8036b09a0c6e0f998fd91856c1cea081a512/app/imports/ui/components/shared/manage/career-goal/EditCareerGoalButton.tsx">recommended</a>.
+          After looking at it I followed the steps and created the modal for Task 5's tab where the user would click the button and then the modal would appear.
+          <Image src='https://github.com/saitoshi/images/blob/main/radgradtask/task7/RadGradTask7.gif?raw=true' size='big' centered/>
+          <div className='comment'><span className="bold-list">A sample visual of how the Tabs and Modals work.</span></div>
         </Container>
         <div className ="push"/>
       </Container>
