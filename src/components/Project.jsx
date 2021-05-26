@@ -139,6 +139,47 @@ function Project() {
             </Card.Content>
           </Card>
 
+          <Card>
+            <Image src="https://saitoshi.github.io/images/mathchallenge.jpg" />
+            <Card.Content>
+              <Card.Header textAlign='center'>Hawaii Math State Challenge</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-02-15</span>
+              </Card.Meta>
+              <Card.Description>
+                A project event where we did a presentation on the different possible ways of fixing the island of Kahoolawe.             </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Mathematics, Education, Academic Event
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/math">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Toei-Tokusatsu-header.png" />
+            <Card.Content>
+              <Card.Header textAlign='center'>Japanese Tokusatsu Paper</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2019-05-15</span>
+              </Card.Meta>
+              <Card.Description>
+                A final research paper written centering around the history of Japanese Special Effect Shows <i>Tokusatsu</i> for JPN 421: Japanese Composition.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Japanese, Research Paper
+              <Grid>
+                <Grid.Column textAlign="center">
+                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                </Grid.Column>
+              </Grid>
+            </Card.Content>
+          </Card>
+
         </Card.Group>
 
         </Container>

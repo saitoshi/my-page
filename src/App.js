@@ -14,6 +14,7 @@ import {
   RadGradReview,
   RadGradFeedback,
   RadGradStart,
+    Math,
   Tregear,
     CrossCountry
 } from "./components";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/project" exact component={() => <Project />} />
           <Route path="/essay" exact component={() => <Essay />} />
           <Route path="/radgrad" exact component={() => <RadGrad />} />
+          <Route path="/math" exact component={() => <Math />} />
           <Route path="/shocking" exact component={() => <Shocking />} />
           <Route path="/radgradreview" exact component={() => <RadGradReview />} />
           <Route path="/radgradfeedback" exact component={() => <RadGradFeedback />} />
