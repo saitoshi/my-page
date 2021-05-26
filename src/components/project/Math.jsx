@@ -6,8 +6,9 @@ function Math() {
       <Container>
         <br/>
         <Header as ="h2" textAlign="center">Hawaii Math State Challenge</Header>
-       <Grid.Column textAlign='center'><span className='bold-list'>2020-02-15</span> </Grid.Column>
-        <Grid.Column textAligh='center'>Mathematics, Education, Event</Grid.Column>
+       <Grid textAlign='center'><span className='bold-list'>2020-02-15</span> </Grid>
+        <Grid textAlign='center'>Mathematics, Education, Event</Grid>
+        <br/>
         <Container text>
           <hr/>
           <p> The project the Hawaii State Challenge is an event organized by the Department of Education to teach elemntary school students to high school kids about the applications of math in the local neighborhood. The main topic that was used for this project was how math can be applied to revive the nature of the island of Kahoolawe. The project was broken into parts: the research, educational planner, and the educational facilitator. The part I took was the planner and the facilitator. Since people from different age groups learn math differently, as a planner and facilitator, we devised plans on what is appropriate and fun to make the learning enaging.
