@@ -10,6 +10,7 @@ export { default as Shocking } from "./project/Shocking";
 export { default as TextbookHunt } from "./project/TextbookHunt";
 export { default as CrossCountry } from "./project/CrossCountry";
 export { default as Tokusatsu } from "./project/Tokusatsu";
+export { default as Uhmath } from "./project/Uhmath";
 export { default as Tregear } from "./project/Tregear";
 export { default as RadGradReview } from "./essay/RadGradReview";
 export { default as RadGradFeedback } from "./essay/RadGradFeedback";

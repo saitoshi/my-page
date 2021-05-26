@@ -112,7 +112,7 @@ function Project() {
               <br/>
               <Grid>
                 <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                  <Button as = {NavLink} exact to = "/uhmath">MORE DETAILS</Button>
                 </Grid.Column>
               </Grid>
             </Card.Content>

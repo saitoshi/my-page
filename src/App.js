@@ -15,6 +15,7 @@ import {
   RadGradFeedback,
   RadGradStart,
     Math,
+    Uhmath,
   Tregear,
     Tokusatsu,
     CrossCountry
@@ -33,6 +34,7 @@ function App() {
           <Route path="/essay" exact component={() => <Essay />} />
           <Route path="/radgrad" exact component={() => <RadGrad />} />
           <Route path="/math" exact component={() => <Math />} />
+          <Route path="/uhmath" exact component={() => <Uhmath />} />
           <Route path="/shocking" exact component={() => <Shocking />} />
           <Route path="/radgradreview" exact component={() => <RadGradReview />} />
           <Route path="/radgradfeedback" exact component={() => <RadGradFeedback />} />
