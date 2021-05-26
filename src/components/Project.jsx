@@ -174,7 +174,7 @@ function Project() {
               Japanese, Research Paper
               <Grid>
                 <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
+                  <Button as = {NavLink} exact to = "/tokusatsu">MORE DETAILS</Button>
                 </Grid.Column>
               </Grid>
             </Card.Content>

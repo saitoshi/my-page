@@ -16,6 +16,7 @@ import {
   RadGradStart,
     Math,
   Tregear,
+    Tokusatsu,
     CrossCountry
 } from "./components";
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/textbookhunt" exact component={() => <TextbookHunt />} />
           <Route path="/crosscountry" exact component={() => <CrossCountry />} />
           <Route path="/tregear" exact component={() => <Tregear />} />
+          <Route path="/tokusatsu" exact component={() => <Tokusatsu />} />
         </Switch>
       </Router>
     </div>
