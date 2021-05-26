@@ -38,6 +38,8 @@ p {
 .comment {
   text-align: center;
   font-size: 12px;
+  font-weight: bold;
+  color: blue;
 }
 span.bold-list {
   font-weight: bold;

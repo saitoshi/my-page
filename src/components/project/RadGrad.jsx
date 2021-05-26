@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Container, Grid } from 'semantic-ui-react';
+import { Header, Container, Grid, Image } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
 function RadGrad2() {
@@ -19,8 +19,9 @@ function RadGrad2() {
 
           RadGrad is an application in which registered ICS students can use as a undergraduate career planner.
           For example, if a certain student is interested in cybersecurity, using RadGrad they are able to see the recommended courses and possible intern programs.
-          Furthermore, RadGrad also has a point system in which as students advance through their studies they level up
-
+          Furthermore, RadGrad also has a point system in which as students advance through their studies they level up.
+          <Image src={"https://www.radgrad.org/assets/images/ice-example-b89aedaa1bd783119aca969f47745f02.png"} size='large' centered/>
+          <div className="comment"> A sample landing page of RadGrad (as of May 26, 2021)</div>
           <ul>
             <li> For the repository <a href="https://github.com/radgrad/radgrad2">page</a></li>
             <li> For the organization <a href={"https://www.radgrad.org/"}>page</a></li>
@@ -35,10 +36,15 @@ function RadGrad2() {
             <li><NavLink exact to = "/radgradfeedback">Comments on the Current RadGrad</NavLink></li>
             <li><NavLink exact to = "/radgradstart">Review and Writing Code</NavLink></li>
           </ul>
+          <Image src={'https://github.com/saitoshi/images/blob/main/RadGradTask3.gif?raw=true'} size='big' centered/>
+          <div className="comment">A sample gif from one of the coding tasks.</div>
+
+
 
 
 
         </Container>
+        <div className ="push"/>
       </Container>
 
 
