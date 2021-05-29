@@ -11,7 +11,7 @@ function Project() {
         <hr/>
         <Card.Group itemsPerRow={3}>
           <Card>
-            <Image src="https://www.klipfolio.com/sites/default/files/blog/algotithm.jpg"/>
+            <Image src="https://github.com/saitoshi/images/blob/main/algotrix.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>Algo-Trix</Card.Header>
               <Card.Meta textAlign='center'>

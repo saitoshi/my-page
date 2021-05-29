@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Container, Grid } from 'semantic-ui-react';
+import { Header, Container, Grid, Image } from 'semantic-ui-react';
 
 function CrossCountry() {
   return (
@@ -23,8 +23,18 @@ function CrossCountry() {
           <br/>
           <ul>
             <li> The link to the <a href="https://cross-country-coders.github.io/">GitHub Organization Page</a></li>
-            <li> The link to the <a href="https://github.com/cross-country-coders/Cross-Country-Coders">GitHub Repository Page</a></li>
+            <li> The link to the <a href="https://github.com/cross-country-coders/algo-trix">GitHub Repository Page</a></li>
           </ul>
+          <Image src ="https://github.com/saitoshi/images/blob/main/algotrix.png?raw=true" centered/>
+          <div className="comment">The logo created for AlgoTrix application.</div>
+          <b><u>Contributions to AlgoTrix</u></b><br/>
+          With ICS 427 being a six week course, our group took advantage of GitHub's <i>Kanban</i> by making Weekly Milestone Issues where each
+          week a member selected an issue to work on.
+          <ol>
+            <li><a href={"https://github.com/cross-country-coders/algo-trix/projects/1"}>Milestone 1</a></li>
+            For Milestone 1, the main goal was to get the mock designs for the application to be created.
+            To begin with the group used <a href={"https://www.figma.com/files/recent?fuid=934216239644834346"}>Figma</a> to make mock up designs. I did the Landing Page, Sample Problem, and Notes Pages.
+          </ol>
         </Container>
       </Container>
   );
