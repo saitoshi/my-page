@@ -36,6 +36,7 @@ function CrossCountry() {
             To begin with the group used <a href={"https://www.figma.com/files/recent?fuid=934216239644834346"}>Figma</a> to make mock up designs. I did the Landing Page, Sample Problem, and Notes Pages.
           </ol>
         </Container>
+        <div className ="push"/>
       </Container>
   );
 }

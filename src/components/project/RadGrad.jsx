@@ -43,12 +43,7 @@ function RadGrad2() {
           For the second week, we were given a list of good first issues and good second issues to work on.
           Each member of the team selected an issue to work on. For instance, one of the first good issue I worked on was adding
           ErrorFields to all of the AutoForms. After working on the first issue, I started to modify all the call statement into callPromise() and modifying
-          the error statement into a try and catch format. 
-
-
-
-
-
+          the error statement into a try and catch format.
         </Container>
         <div className ="push"/>
       </Container>
