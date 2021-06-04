@@ -44,7 +44,7 @@ function RadGrad2() {
           Each member of the team selected an issue to work on. For instance, one of the first good issue I worked on was adding
           ErrorFields to all of the AutoForms. After working on the first issue, I started to modify all the call statement into callPromise() and modifying
           the error statement into a try and catch format. <br/>
-          <b><u>Week 3 Tasks</u></b>
+          <b><u>Week 3 Tasks</u></b><br/>
           With the first and second good issues accomplished, Professor Johnson and Professor Moore modified the project board on GitHub to be organized where
           there are two columns: Intern Issues & Professor Issues. With me being an intern, here are the following things I have accomplished over the third week.
           <ul>
