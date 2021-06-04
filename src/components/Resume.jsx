@@ -3,6 +3,7 @@ import { Header, Container } from 'semantic-ui-react';
 function Resume() {
   return (
       <Container>
+        <br/>
         <Header as = 'h2' textAlign='center'> RESUME</Header>
       <Container text>
         <p>
