@@ -43,7 +43,16 @@ function RadGrad2() {
           For the second week, we were given a list of good first issues and good second issues to work on.
           Each member of the team selected an issue to work on. For instance, one of the first good issue I worked on was adding
           ErrorFields to all of the AutoForms. After working on the first issue, I started to modify all the call statement into callPromise() and modifying
-          the error statement into a try and catch format.
+          the error statement into a try and catch format. <br/>
+          <b><u>Week 3 Tasks</u></b>
+          With the first and second good issues accomplished, Professor Johnson and Professor Moore modified the project board on GitHub to be organized where
+          there are two columns: Intern Issues & Professor Issues. With me being an intern, here are the following things I have accomplished over the third week.
+          <ul>
+            <li>Adding an optional picture field where users can add image for courses, interests, and career. </li>
+            <li>Fixing the update button such that when a user clicks on it, it will scroll the user back up to the page where the editable forum is located.</li>
+            <li>Created a Show More/Less Student button for the student display in the Career, Interest, and Opportunitie page. </li>
+            <li>Modified the Terms and Condition Page where users can agree or disagree at the page rather than doing it at the checklist component.</li>
+          </ul>
         </Container>
         <div className ="push"/>
       </Container>
