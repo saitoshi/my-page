@@ -53,6 +53,9 @@ function RadGrad2() {
             <li>Created a Show More/Less Student button for the student display in the Career, Interest, and Opportunitie page. </li>
             <li>Modified the Terms and Condition Page where users can agree or disagree at the page rather than doing it at the checklist component.</li>
           </ul>
+          <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/week3.gif?raw=true'} size='big' centered/>
+          <div className='comment'>A sample gif of the updates I made in Week 3.</div>
+
         </Container>
         <div className ="push"/>
       </Container>
