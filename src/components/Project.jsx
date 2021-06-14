@@ -7,10 +7,11 @@ function Project() {
       <Container>
         <br/>
         <Header as ="h2" textAlign="center">PROJECT</Header>
+        <div className='comment'>Click on the cards if you would like to read more on the project.</div>
         <Container text>
         <hr/>
-        <Card.Group itemsPerRow={3}>
-          <Card>
+        <Card.Group itemsPerRow={3} centered>
+          <Card as = {NavLink} exact to = "/crosscountry">
             <Image src="https://github.com/saitoshi/images/blob/main/algotrix.png?raw=true"/>
             <Card.Content>
               <Card.Header textAlign='center'>Algo-Trix</Card.Header>
@@ -23,16 +24,9 @@ function Project() {
             </Card.Content>
             <Card.Content extra>
               Software Engineering, React, Software Quality Assurance <br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/crosscountry">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
             </Card.Content>
           </Card>
-
-          <Card>
+          <Card as = {NavLink} exact to = "/radgrad">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
@@ -44,17 +38,10 @@ function Project() {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              Software Engineering, Meteor, React <br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/radgrad">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
+              Software Engineering, Meteor, React
             </Card.Content>
           </Card>
-
-          <Card>
+          <Card as = {NavLink} exact to = "/shocking">
             <Image src="https://saitoshi.github.io/images/shocking.png" />
             <Card.Content>
               <Card.Header textAlign='center'>Shocking Emissions</Card.Header>
@@ -66,17 +53,11 @@ function Project() {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              Software Engineering, Meteor, React <br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/shocking">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
+              Software Engineering, Meteor, React
             </Card.Content>
           </Card>
 
-          <Card>
+          <Card as = {NavLink} exact to = "/tregear">
             <Image src="https://saitoshi.github.io/images/tregear.png" />
             <Card.Content>
               <Card.Header textAlign='center'>Tregear Story Translation</Card.Header>
@@ -87,16 +68,10 @@ function Project() {
                 A Japanese to English translation for the short story called "Tregear Story" written by NAKANO Takao.              </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              Japanese to English Translation<br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/tregear">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
+              Japanese to English Translation
             </Card.Content>
           </Card>
-          <Card>
+          <Card as = {NavLink} exact to = "/uhmath">
             <Image src="https://saitoshi.github.io/images/math.jpeg" />
             <Card.Content>
               <Card.Header textAlign='center'>UH Math Review</Card.Header>
@@ -108,17 +83,11 @@ function Project() {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              Mathematics, HTML, LaTex <br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/uhmath">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
+              Mathematics, HTML, LaTex
             </Card.Content>
           </Card>
 
-          <Card>
+          <Card as = {NavLink} exact to = "/textbookhunt">
             <Image src="https://saitoshi.github.io/images/textbookhunt.png" />
             <Card.Content>
               <Card.Header textAlign='center'>Textbook Hunt</Card.Header>
@@ -130,12 +99,6 @@ function Project() {
             </Card.Content>
             <Card.Content extra>
               Software Engineering, Meteor, React<br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/textbookhunt">MORE DETAILS</Button>
-                </Grid.Column>
-              </Grid>
             </Card.Content>
           </Card>
 
