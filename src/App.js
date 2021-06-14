@@ -18,7 +18,8 @@ import {
     Uhmath,
   Tregear,
     Tokusatsu,
-    CrossCountry
+    CrossCountry,
+    Covid
 } from "./components";
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/crosscountry" exact component={() => <CrossCountry />} />
           <Route path="/tregear" exact component={() => <Tregear />} />
           <Route path="/tokusatsu" exact component={() => <Tokusatsu />} />
+          <Route path="/covid" exact component={() => <Covid />} />
         </Switch>
       </Router>
     </div>

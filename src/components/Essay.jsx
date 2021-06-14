@@ -74,8 +74,24 @@ function Essay() {
               </Grid>
             </Card.Content>
           </Card>
+          <Card as = {NavLink} exact to = "/covid">
+            <Image src="https://github.com/saitoshi/images/blob/main/pandemic.png?raw=true"/>
+            <Card.Content>
+              <Card.Header textAlign='center'>Pandemic Lockdown</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>04-01-20</span>
+              </Card.Meta>
+              <Card.Description>
+                An essay writing how Stay Home orders from COVID 19 has affected my undergraduate life.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Undergraduate Studies, COVID-19, Stay Home
+            </Card.Content>
+          </Card>
         </Card.Group>
         </Container>
+        <div className="push" />
       </Container>
 
 

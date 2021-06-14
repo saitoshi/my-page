@@ -16,3 +16,4 @@ export { default as RadGradReview } from "./essay/RadGradReview";
 export { default as RadGradFeedback } from "./essay/RadGradFeedback";
 export { default as RadGradStart } from "./essay/RadGradStart";
 export { default as Math } from "./project/Math";
+export { default as Covid } from "./essay/Covid";
