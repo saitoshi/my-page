@@ -34,6 +34,13 @@ function CrossCountry() {
             <li><a href={"https://github.com/cross-country-coders/algo-trix/projects/1"}>Milestone 1</a></li>
             For Milestone 1, the main goal was to get the mock designs for the application to be created.
             To begin with the group used <a href={"https://www.figma.com/files/recent?fuid=934216239644834346"}>Figma</a> to make mock up designs. I did the Landing Page, Sample Problem, and Notes Pages.
+            <li><b>Week 3 Contributions</b></li>
+            <ul>
+              <li>I created one of the topic pages for the group to follow. Using the tab and modal components of Semantic UI React, I created a component
+              that stores the notes or explanations that students should remember and then created a problem component that contains problems.</li>
+              <Image src ='https://github.com/saitoshi/images/blob/main/problem.gif?raw=true' centered/>
+              <div className='comment'>A gif of the Proof Writing Page of the Application.</div>
+            </ul>
           </ol>
         </Container>
         <div className ="push"/>
