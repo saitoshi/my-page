@@ -55,6 +55,13 @@ function RadGrad2() {
           </ul>
           <Image src={'https://github.com/saitoshi/images/blob/main/radgradtask/week3.gif?raw=true'} size='big' centered/>
           <div className='comment'>A sample gif of the updates I made in Week 3.</div>
+          <b><u>Week 4/5 Tasks</u></b><br/>
+          For Week 4 and 5 two things were concentrated for the project. One was the normal programming related tasks.
+          For example, currently only students are able to add opportunities and courses to their profiles. However, I made modifications to the profile collection where Advisors
+          and Faculties are able to add it to their profile.
+          <br/>
+          The other thing that the group of interns was making a promotional video for RadGrad2.
+          The video's main purpose is to display it for the National Science Foundation
 
         </Container>
         <div className ="push"/>
