@@ -61,7 +61,15 @@ function RadGrad2() {
           and Faculties are able to add it to their profile.
           <br/>
           The other thing that the group of interns was making a promotional video for RadGrad2.
-          The video's main purpose is to display it for the National Science Foundation
+          The video's main purpose is to display it for the National Science Foundation (NSF) which is a sponsor for the RadGrad Research.
+          The video making was broken up into the following tasks. However, due to the interns working from home a traditional filming where everyone gathers into
+          one place. Therefore, we had to improvise on the filming to be different.  
+          <ul>
+            <li>Screenplay: Shin Saito</li>
+            <li>Video Editing: Trey Sumida</li>
+            <li>Actors:</li>
+            <li></li>
+          </ul>
 
         </Container>
         <div className ="push"/>
