@@ -9,11 +9,14 @@ function JPN() {
         <Header as ="h2" textAlign="center">自己紹介</Header>
         <Container text>
           <hr/>
+          <Header as ="h3">資格など</Header>
+          <ul>
+            <li>TOEIC Listen and Reading: 975 </li>
+          </ul>
           <Header as ="h3">学歴</Header>
           <ul>
             <li>現在は<b>ハワイ大学マノア校</b>でコンピューターサイエンスと数学をダブル専攻を受けています。</li>
             <li> 大学ではソフトウェアやデーターサイエンスの勉強をメインにしています。</li>
-            <li>TOEIC　Listen and Learning: 975 点</li>
             <li>現在、私が参加中の研究課題やプロジェクトはこれです。</li>
             <br/>
             <Card.Group itemsPerRow={3}>
