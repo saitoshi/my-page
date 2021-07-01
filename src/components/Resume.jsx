@@ -23,6 +23,9 @@ function Resume() {
           <hr/>
           <br/>
           Bilingual in Japanese and English
+          <ul>
+            <li>TOEIC Listen and Reading: 975</li>
+          </ul>
           <hr/>
           <h3>EDUCATION</h3>
           University of Hawaii, Honolulu, HI <br/>
