@@ -63,13 +63,23 @@ function RadGrad2() {
           The other thing that the group of interns was making a promotional video for RadGrad2.
           The video's main purpose is to display it for the National Science Foundation (NSF) which is a sponsor for the RadGrad Research.
           The video making was broken up into the following tasks. However, due to the interns working from home a traditional filming where everyone gathers into
-          one place. Therefore, we had to improvise on the filming to be different.  
+          one place. Therefore, we had to improvise on the filming to be different.
           <ul>
             <li>Screenplay: Shin Saito</li>
             <li>Video Editing: Trey Sumida</li>
-            <li>Actors:</li>
-            <li></li>
           </ul>
+          <b><u>Week 6/7 Tasks</u></b><br/>
+          After creating the video, the project went back on working the application itself revising the necessary portions such as consistency.
+          For instance, the interests cards are now updated so that it is alphabetically organized rather than a meaningless order.
+          Additionally the visibility tabs were organized as the tab and the checklist order did not match. Users with the role of faculty and advisors can now add
+          opportunities to their user profile and that if they are not part of an opportunity group a message will display rather than blank.
+          <Image src={"https://github.com/saitoshi/images/blob/main/user_opportunity.png?raw=true"} size='large' centered/>
+          <div className='comment'>A screenshot of the a comment displaying that a user has not opportunity with them.</div>
+          <br/>
+          <b><u>Week 8/9 Tasks</u></b><br/>
+          During week 8 and 9, a pilot study was held with undergraduate students from Computer Science students. Depending on the participants preference,
+          the pilot study was held on either Zoom or Discord. With the set of questions written by Professor Johnson, the student interns asked the participants
+          what they felt about the current RadGrad system and how it could be further improved.
 
         </Container>
         <div className ="push"/>

@@ -25,7 +25,7 @@ function Essay() {
               Undergraduate Studies, COVID-19, Stay Home
             </Card.Content>
           </Card>
-          <Card>
+          <Card　as = {NavLink} exact to = "/radgradstart">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Initial Join Up</Card.Header>
@@ -38,15 +38,9 @@ function Essay() {
             </Card.Content>
             <Card.Content extra>
               Software Engineering, Meteor, React <br/>
-              <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/radgradstart">READ ESSAY</Button>
-                </Grid.Column>
-              </Grid>
             </Card.Content>
           </Card>
-          <Card>
+          <Card　as = {NavLink} exact to = "/radgradfeedback">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Feedback</Card.Header>
@@ -60,15 +54,10 @@ function Essay() {
             <Card.Content extra>
               Software Engineering, Meteor, React <br/>
               <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/radgradfeedback">READ ESSAY</Button>
-                </Grid.Column>
-              </Grid>
             </Card.Content>
           </Card>
 
-          <Card>
+          <Card　as = {NavLink} exact to = "/radgradreview">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad Grad Review</Card.Header>
@@ -82,11 +71,6 @@ function Essay() {
             <Card.Content extra>
               Software Engineering, Meteor, React <br/>
               <br/>
-              <Grid>
-                <Grid.Column textAlign="center">
-                  <Button as = {NavLink} exact to = "/radgradreview">READ ESSAY</Button>
-                </Grid.Column>
-              </Grid>
             </Card.Content>
           </Card>
           <Card as = {NavLink} exact to = "/covid">
