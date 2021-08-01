@@ -31,10 +31,10 @@ function Resume() {
           University of Hawaii, Honolulu, HI <br/>
           Bachelors Candidate in Mathematics and ICS (expected to graduate in Fall 2021)
           <ul>
-            <li> ICS 311 - Algorithms</li>
+            <li> <a href = "https://manoa.hawaii.edu/catalog-2019-20/courses/ics-311-algorithms-4/">ICS 311 - Algorithms</a></li>
             <li> ICS 314 - Software Engineering I</li>
-            <li> ICS 312 - Machine Level and System Programming</li>
-            <li> ICS 313 - Programming Language Theory</li>
+            <li> <a href ="https://manoa.hawaii.edu/catalog-2019-20/courses/ics-312-machine-level-and-systems-programming-3/">ICS 312 - Machine Level and System Programming</a></li>
+            <li> <a href="https://manoa.hawaii.edu/catalog-2019-20/courses/ics-313-programming-language-theory-3/"> ICS 313 - Programming Language Theory</a></li>
             <li> ICS 321 - Database System I</li>
             <li> ICS 332 - Operating System</li>
             <li> ICS 390 - Computing Ethics for Lab Assistants</li>

@@ -19,7 +19,8 @@ import {
   Tregear,
     Tokusatsu,
     CrossCountry,
-    Covid
+    Covid,
+    RadGradPilotStudy,
 } from "./components";
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/tregear" exact component={() => <Tregear />} />
           <Route path="/tokusatsu" exact component={() => <Tokusatsu />} />
           <Route path="/covid" exact component={() => <Covid />} />
+          <Route path="/pilotstudy-radgrad" exact component={() => <RadGradPilotStudy />} />
         </Switch>
       </Router>
     </div>

@@ -10,6 +10,21 @@ function Essay() {
         <hr/>
         <Container text>
         <Card.Group itemsPerRow={3}>
+          <Card as = {NavLink} exact to = "/pilotstudy-radgrad">
+            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+            <Card.Content>
+              <Card.Header textAlign='center'>Rising With RadGrad: A Quantitative Study on Leveling Up Student Retention and Degree Success</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>07-30-21</span>
+              </Card.Meta>
+              <Card.Description>
+                An essay centering around a pilot study centering around with the new updates centered around RadGrad2.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Undergraduate Studies, COVID-19, Stay Home
+            </Card.Content>
+          </Card>
           <Card>
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
