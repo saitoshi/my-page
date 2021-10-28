@@ -9,15 +9,37 @@ function Project() {
         <Header as ="h2" textAlign="center">PROJECT</Header>
         <Container text>
         <hr/>
+<<<<<<< Updated upstream
         <Card.Group itemsPerRow={3}>
           <Card>
+            <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
+=======
+        <Card.Group itemsPerRow={3} centered>
+          <Card as = {NavLink} exact to = "/radgrad">
             <Image src="https://saitoshi.github.io/images/RadGrad.png"/>
             <Card.Content>
               <Card.Header textAlign='center'>RadGrad 2.0</Card.Header>
               <Card.Meta textAlign='center'>
-                <span className='date'>ON GOING</span>
+                <span className='date'>2021-07-30</span>
               </Card.Meta>
               <Card.Description>
+                A Meteor and React based planner targeted for Computer Science and Electrical Engineering students that students can do based on their Career Goals.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Meteor, React
+            </Card.Content>
+          </Card>
+          <Card as = {NavLink} exact to = "/crosscountry">
+            <Image src="https://github.com/saitoshi/images/blob/main/algotrix.png?raw=true"/>
+>>>>>>> Stashed changes
+            <Card.Content>
+              <Card.Header textAlign='center'>Algo-Trix</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2020-07-02</span>
+              </Card.Meta>
+              <Card.Description>
+<<<<<<< Updated upstream
                 A project created during my Summer 2021 internship program.
               </Card.Description>
             </Card.Content>
@@ -29,6 +51,13 @@ function Project() {
                   <Button as = {NavLink} exact to = "/radgrad">MORE DETAILS</Button>
                 </Grid.Column>
               </Grid>
+=======
+                A Meteor and React based application created for ICS 427 Summer 2021 that provides college students additional practice for Algorithm outside of a textbook.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, React, Software Quality Assurance <br/>
+>>>>>>> Stashed changes
             </Card.Content>
           </Card>
 
