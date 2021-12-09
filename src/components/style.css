@@ -45,3 +45,8 @@ span.bold-list {
   font-weight: bold;
   color: blue;
 }
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

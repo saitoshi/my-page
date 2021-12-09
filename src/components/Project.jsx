@@ -11,6 +11,20 @@ function Project() {
         <Container text>
         <hr/>
         <Card.Group itemsPerRow={3} centered>
+          <Card as = {NavLink} exact to = "/internaloha">
+            <Image src="https://internaloha.github.io/documentation/img/internaloha-logo.png"/>
+            <Card.Content>
+              <Card.Header textAlign='center'>Internaloha</Card.Header>
+              <Card.Meta textAlign='center'>
+                <span className='date'>2021-12-10</span>
+              </Card.Meta>
+              <Card.Description>
+                A scrapper for the RadGrad application where it extracts information for recent internships.              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              Software Engineering, Scrapper, TypeScript<br/>
+            </Card.Content>
+          </Card>
           <Card as = {NavLink} exact to = "/crosscountry">
             <Image src="https://github.com/saitoshi/images/blob/main/algotrix.png?raw=true"/>
             <Card.Content>

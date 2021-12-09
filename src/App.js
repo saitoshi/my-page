@@ -21,6 +21,7 @@ import {
     CrossCountry,
     Covid,
     RadGradPilotStudy,
+    Internaloha
 } from "./components";
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/tokusatsu" exact component={() => <Tokusatsu />} />
           <Route path="/covid" exact component={() => <Covid />} />
           <Route path="/pilotstudy-radgrad" exact component={() => <RadGradPilotStudy />} />
+          <Route path="/internaloha" exact component={() => <Internaloha/>}/>
         </Switch>
       </Router>
     </div>
